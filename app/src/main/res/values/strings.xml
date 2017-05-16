@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BIT EIE</string>
+    <string name="short_app_name">BIT EIE</string>
+    <string name="long_app_name">BIT Electronics &amp; Instrumentation</string>
+    <string name="facultytitle">Faculty</string>
+    <string name="facurl">file:///android_asset/newfaculty.htm</string>
+
+
+    <string name="url_ttl_3"><html><body><p> url_ttl_3</p></body></html></string>
+    <string name="url_ttl_4"><html><body><p> url_ttl_4</p></body></html></string>
+    <string name="url_ttl_5"><html><body><p> url_ttl_5</p></body></html></string>
+    <string name="url_ttl_6"><html><body><p> url_ttl_6</p></body></html></string>
+    <string name="url_ttl_7"><html><body><p> url_ttl_7</p></body></html></string>
+    <string name="url_ttl_8"><html><body><p> url_ttl_8</p></body></html></string>
+
+    <string name="url_syl_3"><html><body><p> url_syl_3</p></body></html></string>
+    <string name="url_syl_4"><html><body><p> url_syl_4</p></body></html></string>
+    <string name="url_syl_5"><html><body><p> url_syl_5</p></body></html></string>
+    <string name="url_syl_6"><html><body><p> url_syl_6</p></body></html></string>
+    <string name="url_syl_7"><html><body><p> url_syl_7</p></body></html></string>
+    <string name="url_syl_8"><html><body><p> url_syl_8</p></body></html></string>
+
+    <string name="url_mks_3"><html><body><p> url_mks_3</p></body></html></string>
+    <string name="url_mks_4"><html><body><p> url_mks_4</p></body></html></string>
+    <string name="url_mks_5"><html><body><p> url_mks_5</p></body></html></string>
+    <string name="url_mks_6"><html><body><p> url_mks_6</p></body></html></string>
+    <string name="url_mks_7"><html><body><p> url_mks_7</p></body></html></string>
+    <string name="url_mks_8"><html><body><p> url_mks_8</p></body></html></string>
+
+    <string name="url_att_3"><html><body><p> url_att_3</p></body></html></string>
+    <string name="url_att_4"><html><body><p> url_att_4</p></body></html></string>
+    <string name="url_att_5"><html><body><p> url_att_5</p></body></html></string>
+    <string name="url_att_6"><html><body><p> url_att_6</p></body></html></string>
+    <string name="url_att_7"><html><body><p> url_att_7</p></body></html></string>
+    <string name="url_att_8"><html><body><p> url_att_8</p></body></html></string>
+
+    <string name="url_ass_3"><html><body><p> url_ass_3</p></body></html></string>
+    <string name="url_ass_4"><html><body><p> url_ass_4</p></body></html></string>
+    <string name="url_ass_5"><html><body><p> url_ass_5</p></body></html></string>
+    <string name="url_ass_6"><html><body><p> url_ass_6</p></body></html></string>
+    <string name="url_ass_7"><html><body><p> url_ass_7</p></body></html></string>
+    <string name="url_ass_8"><html><body><p> url_ass_8</p></body></html></string>
+    <string name="title_activity_sem_sel_syl">SemSelSYL</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

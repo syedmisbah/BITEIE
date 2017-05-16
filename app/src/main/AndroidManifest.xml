@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.syedmisbah.bitis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".MarksActivity" />
+        <activity android:name=".AttendanceActivity" />
+        <activity android:name=".TimeTableActivity" />
+        <activity android:name=".FacultyActivity" />
+        <activity android:name=".ScannerActivity" />
+        <activity android:name=".SyllabusActivity" />
+        <activity android:name=".AssignmentActivity" />
+        <activity
+            android:name=".NotesActivity"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".SemSelAssignment" />
+        <activity android:name=".SemSelAttn" />
+        <activity android:name=".SemSelTT" />
+        <activity android:name=".SemSelMarks" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".DepartmentActivity" />
+        <activity
+            android:name=".SemSelSYL"
+            android:label="@string/title_activity_sem_sel_syl"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".SemSelSyl"></activity>
+    </application>
+
+</manifest>
