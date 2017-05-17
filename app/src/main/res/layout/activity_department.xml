@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="false"
 
         android:layout_marginTop="30dp"
-        android:text="Department of Information Science &amp; Engineering"
+        android:text="Department of Electronics &amp; Instrumentation Engineering"
         android:textAlignment="center"
         android:textColor="@color/buttoncolordark"
         android:textSize="24sp"
