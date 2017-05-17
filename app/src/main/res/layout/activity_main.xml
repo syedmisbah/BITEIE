@@ -34,10 +34,10 @@
                 android:layout_toRightOf="@id/imageView2"
                 android:gravity="center"
                 android:paddingLeft="10dp"
-                android:text="BIT Information Science"
+                android:text="@string/long_app_name"
                 android:textAlignment="viewStart"
                 android:textColor="@android:color/background_light"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
 
             <ImageButton

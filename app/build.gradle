@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "io.github.syedmisbah.bitis"
+        applicationId "io.github.syedmisbah.biteie"
         minSdkVersion 17
         targetSdkVersion 25
         versionCode 3
@@ -30,17 +30,18 @@ dependencies {
     })
 
 
+
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.google.firebase:firebase-messaging:10.0.1'
-    compile 'com.google.firebase:firebase-core:9.2.0'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.android.support:cardview-v7:25.3.1'
     compile 'com.android.support:recyclerview-v7:25.3.1'
     compile 'com.android.support:support-v4:25.3.1'
     compile 'com.android.support:design:25.3.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
     testCompile 'junit:junit:4.12'
 }
+
 
 
 

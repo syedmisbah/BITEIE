@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "479530413183",
+    "firebase_url": "https://biteie-a2d0e.firebaseio.com",
+    "project_id": "biteie-a2d0e",
+    "storage_bucket": "biteie-a2d0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479530413183:android:f6b648ebe48517d2",
+        "android_client_info": {
+          "package_name": "io.github.syedmisbah.biteie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479530413183-hqslc60qvuo1hdpfolmod138eak27pdu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.syedmisbah.biteie",
+            "certificate_hash": "2f9b077cb8e131883928e94b0d497ae8bec89c15"
+          }
+        },
+        {
+          "client_id": "479530413183-feuhsq590sa6q4nrkk7392guml4275ub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqXhXLgiqh0Mx7ZKNfnNK-MyONMMO6Vns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479530413183-feuhsq590sa6q4nrkk7392guml4275ub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
