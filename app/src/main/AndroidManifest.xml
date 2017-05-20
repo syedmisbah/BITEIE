@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.github.syedmisbah.biteie">
+    package="com.bit.biteie">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name="io.github.syedmisbah.biteie.MainActivity"
+            android:name="com.bit.biteie.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,28 +20,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="io.github.syedmisbah.biteie.EventsActivity" />
-        <activity android:name="io.github.syedmisbah.biteie.MarksActivity" />
-        <activity android:name="io.github.syedmisbah.biteie.AttendanceActivity" />
-        <activity android:name="io.github.syedmisbah.biteie.TimeTableActivity" />
-        <activity android:name="io.github.syedmisbah.biteie.FacultyActivity" />
-        <activity android:name="io.github.syedmisbah.biteie.ScannerActivity" />
-        <activity android:name="io.github.syedmisbah.biteie.SyllabusActivity" />
-        <activity android:name="io.github.syedmisbah.biteie.AssignmentActivity" />
+        <activity android:name="com.bit.biteie.EventsActivity" />
+        <activity android:name="com.bit.biteie.MarksActivity" />
+        <activity android:name="com.bit.biteie.AttendanceActivity" />
+        <activity android:name="com.bit.biteie.TimeTableActivity" />
+        <activity android:name="com.bit.biteie.FacultyActivity" />
+        <activity android:name="com.bit.biteie.ScannerActivity" />
+        <activity android:name="com.bit.biteie.SyllabusActivity" />
+        <activity android:name="com.bit.biteie.AssignmentActivity" />
         <activity
-            android:name="io.github.syedmisbah.biteie.NotesActivity"
+            android:name="com.bit.biteie.NotesActivity"
             android:hardwareAccelerated="true" />
-        <activity android:name="io.github.syedmisbah.biteie.SemSelAssignment" />
-        <activity android:name="io.github.syedmisbah.biteie.SemSelAttn" />
-        <activity android:name="io.github.syedmisbah.biteie.SemSelTT" />
-        <activity android:name="io.github.syedmisbah.biteie.SemSelMarks" />
-        <activity android:name="io.github.syedmisbah.biteie.InfoActivity" />
-        <activity android:name="io.github.syedmisbah.biteie.DepartmentActivity" />
+        <activity android:name="com.bit.biteie.SemSelAssignment" />
+        <activity android:name="com.bit.biteie.SemSelAttn" />
+        <activity android:name="com.bit.biteie.SemSelTT" />
+        <activity android:name="com.bit.biteie.SemSelMarks" />
+        <activity android:name="com.bit.biteie.InfoActivity" />
+        <activity android:name="com.bit.biteie.DepartmentActivity" />
         <activity
             android:name=".SemSelSYL"
             android:label="@string/title_activity_sem_sel_syl"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name="io.github.syedmisbah.biteie.SemSelSyl"></activity>
+        <activity android:name="com.bit.biteie.SemSelSyl"></activity>
     </application>
 
 </manifest>

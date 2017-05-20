@@ -3,7 +3,7 @@
     <string name="short_app_name">BIT EIE</string>
     <string name="long_app_name">BIT Electronics &amp; Instrumentation</string>
     <string name="facultytitle">Faculty</string>
-    <string name="facurl">file:///android_asset/newfaculty.htm</string>
+    <string name="facurl">file:///android_asset/Faculty.html</string>
 
 
     <string name="url_ttl_3"><html><body><p> url_ttl_3</p></body></html></string>
@@ -20,12 +20,6 @@
     <string name="url_syl_7"><html><body><p> url_syl_7</p></body></html></string>
     <string name="url_syl_8"><html><body><p> url_syl_8</p></body></html></string>
 
-    <string name="url_mks_3"><html><body><p> url_mks_3</p></body></html></string>
-    <string name="url_mks_4"><html><body><p> url_mks_4</p></body></html></string>
-    <string name="url_mks_5"><html><body><p> url_mks_5</p></body></html></string>
-    <string name="url_mks_6"><html><body><p> url_mks_6</p></body></html></string>
-    <string name="url_mks_7"><html><body><p> url_mks_7</p></body></html></string>
-    <string name="url_mks_8"><html><body><p> url_mks_8</p></body></html></string>
 
     <string name="url_att_3"><html><body><p> url_att_3</p></body></html></string>
     <string name="url_att_4"><html><body><p> url_att_4</p></body></html></string>
@@ -40,6 +34,7 @@
     <string name="url_ass_6"><html><body><p> url_ass_6</p></body></html></string>
     <string name="url_ass_7"><html><body><p> url_ass_7</p></body></html></string>
     <string name="url_ass_8"><html><body><p> url_ass_8</p></body></html></string>
+
     <string name="title_activity_sem_sel_syl">SemSelSYL</string>
     <string name="action_settings">Settings</string>
 
