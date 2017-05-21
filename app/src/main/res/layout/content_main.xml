@@ -1,20 +1,249 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.waynenterprises.navdrawer.MainActivity"
-    tools:showIn="@layout/app_bar_main">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/buttoncolorlight"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/outer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titleapp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="@string/long_app_name"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="50dp"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/BtnTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/ic_timetable"
+                android:elevation="0dp"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif-condensed"
+                android:hapticFeedbackEnabled="false"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="TIME TABLE"
+                android:textAlignment="center"
+                android:textColor="@color/toolbarcolor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/BtnSyllabus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/ic_syllabus"
+                android:duplicateParentState="false"
+                android:editable="false"
+                android:elegantTextHeight="false"
+                android:fontFamily="sans-serif-condensed"
+                android:hapticFeedbackEnabled="false"
+                android:layoutDirection="ltr"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="SYLLABUS"
+                android:textAlignment="center"
+                android:textColor="@color/toolbarcolor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/BtnNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/ic_notes"
+                android:fontFamily="sans-serif-condensed"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="NOTES"
+                android:textAlignment="center"
+                android:textColor="@color/toolbarcolor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/BtnAttn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/ic_attendance"
+                android:fontFamily="sans-serif-condensed"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="ATTENDANCE"
+                android:textAlignment="center"
+                android:textColor="@color/toolbarcolor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/BtnMarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/ic_marks"
+                android:fontFamily="sans-serif-condensed"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="MARKS"
+                android:textAlignment="center"
+                android:textColor="@color/toolbarcolor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/BtnEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/ic_calendar"
+                android:fontFamily="sans-serif-condensed"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="EVENTS"
+                android:textAlignment="center"
+                android:textColor="@color/toolbarcolor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="50dp"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/BtnFaculty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/ic_faculty"
+                android:fontFamily="sans-serif-condensed"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="FACULTY"
+                android:textAlignment="center"
+                android:textColor="@color/toolbarcolor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/BtnAssign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/ic_assignment"
+                android:fontFamily="sans-serif-condensed"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="ASSIGNMENT"
+                android:textAlignment="center"
+                android:textColor="@color/toolbarcolor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/BtnCircular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/ic_questions"
+                android:fontFamily="sans-serif-condensed"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Scanner"
+                android:textAlignment="center"
+                android:textColor="@color/toolbarcolor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

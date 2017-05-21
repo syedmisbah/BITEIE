@@ -5,6 +5,13 @@
     <string name="facultytitle">Faculty</string>
     <string name="facurl">file:///android_asset/Faculty.html</string>
 
+    <string name="dept_name">Department of Electronics &amp; Instrumentation</string>
+    <string name="college_name">Bangalore Institute of Technology</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
 
     <string name="url_ttl_3"><html><body><p> url_ttl_3</p></body></html></string>
     <string name="url_ttl_4"><html><body><p> url_ttl_4</p></body></html></string>
