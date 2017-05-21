@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/creditbgcolor"
+    tools:context="com.bit.biteie.InfoActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="DEVELOPERS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/buttoncolordark"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="false"
+        android:layout_below="@+id/textView10"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:gravity="top">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/cardbgval"
+                app:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:id="@+id/rel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="top"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:layout_weight="1"
+                        android:gravity="top"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/devimg1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="false"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="top|fill"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/dev1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/nameDev1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="16dp"
+                                android:text="Syed Misbah Ahmed"
+                                android:textColor="@color/toolbarcolor"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:id="@+id/DeptDev1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/nameDev1"
+                                android:layout_below="@+id/nameDev1"
+                                android:layout_centerHorizontal="false"
+                                android:layout_margin="0dp"
+                                android:text="Dept. of Electronics and Instrumentation"
+                                android:textColor="@color/toolbarcolor" />
+
+                            <TextView
+                                android:id="@+id/college1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/nameDev1"
+                                android:layout_below="@+id/DeptDev1"
+                                android:layout_margin="0dp"
+                                android:layout_marginBottom="0dp"
+                                android:text="Bangalore Institute of Technology"
+                                android:textColor="@color/toolbarcolor" />
+
+                            <TextView
+                                android:id="@+id/phdev1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/nameDev1"
+                                android:layout_alignStart="@+id/college1"
+                                android:layout_below="@+id/college1"
+                                android:layout_centerVertical="false"
+                                android:layout_margin="0dp"
+                                android:layout_marginLeft="0dp"
+                                android:autoLink="phone"
+                                android:text="Phone: +91 9066665419"
+                                android:textColor="@color/toolbarcolor"
+                                android:textColorLink="@color/buttoncolordark" />
+
+                            <TextView
+                                android:id="@+id/websitedev1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/nameDev1"
+                                android:layout_alignParentBottom="false"
+                                android:layout_below="@+id/phdev1"
+                                android:layout_centerHorizontal="false"
+                                android:layout_margin="0dp"
+                                android:layout_marginBottom="0dp"
+                                android:layout_marginLeft="0dp"
+                                android:autoLink="web"
+                                android:text="Website: syedmisbah.github.io"
+                                android:textColor="@color/toolbarcolor"
+                                android:textColorLink="@color/buttoncolordark" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:gravity="top">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/cardbgval"
+                app:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:id="@+id/rel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="top"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:layout_weight="1"
+                        android:gravity="top"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/devimg2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="false"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="top|fill"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/dev2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/nameDev2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="16dp"
+                                android:text="Sarfraz Ahmed"
+                                android:textColor="@color/toolbarcolor"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:id="@+id/DeptDev2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/nameDev2"
+                                android:layout_below="@+id/nameDev2"
+                                android:layout_centerHorizontal="false"
+                                android:layout_margin="0dp"
+                                android:text="Dept. of Information Science"
+                                android:textColor="@color/toolbarcolor" />
+
+                            <TextView
+                                android:id="@+id/college2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/nameDev2"
+                                android:layout_below="@+id/DeptDev2"
+                                android:layout_margin="0dp"
+                                android:layout_marginBottom="0dp"
+                                android:text="Bangalore Institute of Technology"
+                                android:textColor="@color/toolbarcolor" />
+
+                            <TextView
+                                android:id="@+id/phdev2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/nameDev2"
+                                android:layout_alignStart="@+id/college2"
+                                android:layout_below="@+id/college2"
+                                android:layout_centerVertical="false"
+                                android:layout_margin="0dp"
+                                android:layout_marginLeft="0dp"
+                                android:autoLink="phone"
+                                android:text="Phone: +91 7631510420"
+                                android:textColor="@color/toolbarcolor"
+                                android:textColorLink="@color/buttoncolordark" />
+
+                            <TextView
+                                android:id="@+id/websitedev2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/nameDev2"
+                                android:layout_alignParentBottom="false"
+                                android:layout_below="@+id/phdev2"
+                                android:layout_centerHorizontal="false"
+                                android:layout_margin="0dp"
+                                android:layout_marginBottom="0dp"
+                                android:layout_marginLeft="0dp"
+                                android:autoLink="web"
+                                android:text="Website: sarfrazahmed.github.io"
+                                android:textColor="@color/toolbarcolor"
+                                android:textColorLink="@color/buttoncolordark" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

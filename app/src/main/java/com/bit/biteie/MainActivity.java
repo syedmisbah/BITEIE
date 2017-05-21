@@ -1,5 +1,6 @@
 package com.bit.biteie;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Build;
 import android.support.design.widget.NavigationView;
@@ -167,29 +168,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-   /* @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    */
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -199,13 +178,30 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_about_us) {
 
+            Intent intent1 = new Intent(MainActivity.this, DepartmentActivity.class);
+            startActivity(intent1);
+
         } else if (id == R.id.nav_gallery) {
 
+            Intent intent2 = new Intent(MainActivity.this, GalleryActivity.class);
+            startActivity(intent2);
+
         } else if (id == R.id.nav_credits) {
+            Intent intent3 = new Intent(MainActivity.this, CreditsActivity.class);
+            startActivity(intent3);
 
         } else if (id == R.id.nav_support) {
 
         } else if (id == R.id.nav_share) {
+
+            Intent share = new Intent(Intent.ACTION_SEND);
+            share.setType("text/plain");
+            StringBuilder sb = new StringBuilder();
+            sb.append("Hi, I am using the BIT Electronics & Ins. I like this and I want you to check it out.\n");
+            sb.append("https://play.google.com/store/apps/details?id=" + "com.bit.biteie");
+            share.putExtra(Intent.EXTRA_SUBJECT, "Test");
+            share.putExtra(Intent.EXTRA_TEXT, sb.toString());
+            startActivity(Intent.createChooser(share, "BIT EIE"));
 
         } else if (id == R.id.nav_feedback) {
 
@@ -215,6 +211,41 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+
+
+    public void shareText(View view) {
+        Intent intent = new Intent(android.content.Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        String shareBodyText = "Your sharing message goes here";
+        intent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject/Title");
+        intent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
+        startActivity(Intent.createChooser(intent, "Choose sharing method"));
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.share:
+
+                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                sharingIntent.setType("text/plain");
+                String shareBodyText = "Check it out. Your message goes here";
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,"Subject here");
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
+                startActivity(Intent.createChooser(sharingIntent, "Sharing Option"));
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+
+
+
 }
 
 

@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name="com.bit.biteie.MainActivity"
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,28 +20,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.bit.biteie.EventsActivity" />
-        <activity android:name="com.bit.biteie.MarksActivity" />
-        <activity android:name="com.bit.biteie.AttendanceActivity" />
-        <activity android:name="com.bit.biteie.TimeTableActivity" />
-        <activity android:name="com.bit.biteie.FacultyActivity" />
-        <activity android:name="com.bit.biteie.ScannerActivity" />
-        <activity android:name="com.bit.biteie.SyllabusActivity" />
-        <activity android:name="com.bit.biteie.AssignmentActivity" />
-        <activity
-            android:name="com.bit.biteie.NotesActivity"
-            android:hardwareAccelerated="true" />
-        <activity android:name="com.bit.biteie.SemSelAssignment" />
-        <activity android:name="com.bit.biteie.SemSelAttn" />
-        <activity android:name="com.bit.biteie.SemSelTT" />
-        <activity android:name="com.bit.biteie.SemSelMarks" />
-        <activity android:name="com.bit.biteie.InfoActivity" />
-        <activity android:name="com.bit.biteie.DepartmentActivity" />
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".MarksActivity" />
+        <activity android:name=".AttendanceActivity" />
+        <activity android:name=".TimeTableActivity" />
+        <activity android:name=".FacultyActivity" />
+        <activity android:name=".ScannerActivity" />
+        <activity android:name=".SyllabusActivity" />
+        <activity android:name=".AssignmentActivity" />
+        <activity android:name=".NotesActivity" />
+        <activity android:name=".SemSelAssignment" />
+        <activity android:name=".SemSelAttn" android:screenOrientation="portrait" />
+        <activity android:name=".SemSelTT" android:screenOrientation="portrait"/>
+        <activity android:name=".SemSelMarks" android:screenOrientation="portrait"/>
+        <activity android:name=".InfoActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".DepartmentActivity" />
         <activity
             android:name=".SemSelSYL"
             android:label="@string/title_activity_sem_sel_syl"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name="com.bit.biteie.SemSelSyl"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:screenOrientation="portrait"/>
+        <activity android:name=".SemSelSyl" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".CreditsActivity" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
