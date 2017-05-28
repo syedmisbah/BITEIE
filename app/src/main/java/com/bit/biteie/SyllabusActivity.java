@@ -49,35 +49,10 @@ public class SyllabusActivity extends AppCompatActivity {
         webSettings.setLoadWithOverviewMode(true);
         webSettings.setUseWideViewPort(true);
 
-        if (semTitle.equalsIgnoreCase(SemSelAttn.semester_3))
-        {
-            webView.loadData((getString(R.string.url_syl_3)),"text/html", "UTF-8");
-        }
+       // webView.loadData((getString(R.string.url_syl_3)),"text/html", "UTF-8");
+        webView.loadUrl("https://drive.google.com/drive/folders/0B9Fi_mvltTeXTlFNY0NFN2I0cFE?usp=sharing");
 
-        else if (semTitle.equalsIgnoreCase(SemSelAttn.semester_4))
-        {
-            webView.loadData((getString(R.string.url_syl_4)),"text/html", "UTF-8");
-        }
 
-        else if (semTitle.equalsIgnoreCase(SemSelAttn.semester_5))
-        {
-            webView.loadData((getString(R.string.url_syl_5)),"text/html", "UTF-8");
-        }
-
-        else if (semTitle.equalsIgnoreCase(SemSelAttn.semester_6))
-        {
-            webView.loadData((getString(R.string.url_syl_6)),"text/html", "UTF-8");
-        }
-
-        else if (semTitle.equalsIgnoreCase(SemSelAttn.semester_7))
-        {
-            webView.loadData((getString(R.string.url_syl_7)),"text/html", "UTF-8");
-        }
-
-        else
-        {
-            webView.loadData((getString(R.string.url_syl_8)),"text/html", "UTF-8");
-        }
 
 
     }

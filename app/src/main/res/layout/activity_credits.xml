@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/creditbgcolor"
-    tools:context="com.bit.biteie.InfoActivity">
+    tools:context="com.bit.biteie.SupportActivity">
 
     <TextView
         android:id="@+id/textView10"
@@ -173,7 +173,7 @@
                 app:cardCornerRadius="0dp">
 
                 <LinearLayout
-                    android:id="@+id/rel2"
+                    android:id="@+id/rel1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="top"
@@ -191,7 +191,7 @@
                         android:weightSum="1">
 
                         <ImageView
-                            android:id="@+id/devimg2"
+                            android:id="@+id/devimg3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_alignParentStart="false"
@@ -213,7 +213,7 @@
                             android:layout_height="match_parent">
 
                             <TextView
-                                android:id="@+id/nameDev2"
+                                android:id="@+id/nameDev3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentTop="true"
@@ -223,34 +223,34 @@
                                 android:textSize="22sp" />
 
                             <TextView
-                                android:id="@+id/DeptDev2"
+                                android:id="@+id/DeptDev3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_alignLeft="@+id/nameDev2"
-                                android:layout_below="@+id/nameDev2"
+                                android:layout_alignLeft="@+id/nameDev3"
+                                android:layout_below="@+id/nameDev3"
                                 android:layout_centerHorizontal="false"
                                 android:layout_margin="0dp"
                                 android:text="Dept. of Information Science"
                                 android:textColor="@color/toolbarcolor" />
 
                             <TextView
-                                android:id="@+id/college2"
+                                android:id="@+id/college3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_alignLeft="@+id/nameDev2"
-                                android:layout_below="@+id/DeptDev2"
+                                android:layout_alignLeft="@+id/nameDev3"
+                                android:layout_below="@+id/DeptDev3"
                                 android:layout_margin="0dp"
                                 android:layout_marginBottom="0dp"
                                 android:text="Bangalore Institute of Technology"
                                 android:textColor="@color/toolbarcolor" />
 
                             <TextView
-                                android:id="@+id/phdev2"
+                                android:id="@+id/phdev3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_alignLeft="@+id/nameDev2"
-                                android:layout_alignStart="@+id/college2"
-                                android:layout_below="@+id/college2"
+                                android:layout_alignLeft="@+id/nameDev3"
+                                android:layout_alignStart="@+id/college3"
+                                android:layout_below="@+id/college3"
                                 android:layout_centerVertical="false"
                                 android:layout_margin="0dp"
                                 android:layout_marginLeft="0dp"
@@ -263,9 +263,9 @@
                                 android:id="@+id/websitedev2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_alignLeft="@+id/nameDev2"
+                                android:layout_alignLeft="@+id/nameDev3"
                                 android:layout_alignParentBottom="false"
-                                android:layout_below="@+id/phdev2"
+                                android:layout_below="@+id/phdev3"
                                 android:layout_centerHorizontal="false"
                                 android:layout_margin="0dp"
                                 android:layout_marginBottom="0dp"

@@ -41,13 +41,12 @@ public class NotesActivity extends AppCompatActivity {
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+      
         webView.setWebViewClient(new myWebclient());
 
 
 
-        webView.loadUrl("https://drive.google.com/drive/folders/0BwGbXf5-HYCHd09seHNwNzltVlU?usp=sharing");
-
+        webView.loadUrl("https://drive.google.com/drive/folders/0B9Fi_mvltTeXZktBQmliMUllSjg?usp=sharing");
 
     }
 

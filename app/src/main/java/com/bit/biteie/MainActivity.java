@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 v.startAnimation(buttonClick);
-                Intent intent2 = new Intent(MainActivity.this, SemSelSyl.class);
+                Intent intent2 = new Intent(MainActivity.this, SyllabusActivity.class);
                 startActivity(intent2);}
         });
 
@@ -191,19 +191,25 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent3);
 
         } else if (id == R.id.nav_support) {
+            Intent intent4 = new Intent(MainActivity.this, SupportActivity.class);
+            startActivity(intent4);
 
         } else if (id == R.id.nav_share) {
 
             Intent share = new Intent(Intent.ACTION_SEND);
             share.setType("text/plain");
             StringBuilder sb = new StringBuilder();
-            sb.append("Hi, I am using the BIT Electronics & Ins. I like this and I want you to check it out.\n");
+            sb.append("Hi, I am using the BIT Electronics & Instrumentation Engg. Dept. Application. I like this and I want you to check it out.\n");
             sb.append("https://play.google.com/store/apps/details?id=" + "com.bit.biteie");
+            //https://play.google.com/store/apps/details?id=com.google.android.apps.secrets
             share.putExtra(Intent.EXTRA_SUBJECT, "Test");
             share.putExtra(Intent.EXTRA_TEXT, sb.toString());
-            startActivity(Intent.createChooser(share, "BIT EIE"));
+            startActivity(Intent.createChooser(share, "Share BIT E & IE app"));
 
         } else if (id == R.id.nav_feedback) {
+
+            Intent intent5 = new Intent(MainActivity.this, FeedbackFormActivity.class);
+            startActivity(intent5);
 
         }
 

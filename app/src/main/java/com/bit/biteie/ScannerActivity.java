@@ -46,7 +46,7 @@ public class ScannerActivity extends AppCompatActivity {
 
 
 
-        webView.loadUrl("https://drive.google.com/drive/folders/0BwGbXf5-HYCHMXhWM2k5Z2EtSXc?usp=sharing");
+        webView.loadUrl("https://drive.google.com/drive/folders/0B9Fi_mvltTeXekh3dVlVRGE5dDg?usp=sharing");
 
 
     }

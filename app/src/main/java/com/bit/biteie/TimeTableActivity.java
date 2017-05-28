@@ -53,38 +53,43 @@ public class TimeTableActivity extends AppCompatActivity {
         webSettings.setLoadWithOverviewMode(true);
         webSettings.setUseWideViewPort(true);
 
-        String sem8 = "<html><iframe src='https://docs.google.com/spreadsheets/d/1PNICkcRg1BE_bVMXRqr2Q841wC4HJ9EPhnptR4zmZZ0/pubhtml?gid=908056700&single=true'&embedded='true' width='1080' height='1600' frameborder='0'></iframe></html>";
-        String sem6 = "<html><iframe src='https://docs.google.com/spreadsheets/d/11xqK-0cK-04LU890Zv0fFCqW7_v62rLsbrP-7IIJefc/pubhtml?gid=1115472232&single=true'&embedded='true' width='1080' height='1600' frameborder='0'></iframe></html>";
-        String sem4 = "<html><iframe src='https://docs.google.com/spreadsheets/d/11xqK-0cK-04LU890Zv0fFCqW7_v62rLsbrP-7IIJefc/pubhtml?gid=1474507528&single=true'&embedded='true' width='1080' height='1600' frameborder='0'></iframe></html>";
+        String url_ttl_3 = "";
+        String url_ttl_4 = "<html><iframe src='https://docs.google.com/document/d/1ZJam2mGLOOBOrORajvQR_9UCbjd3D1x10VgTYqAjlMs/pub' width='100%' height='100%'></iframe></html>";
+        String url_ttl_5 = "";
+        String url_ttl_6 = "<html><iframe src='https://docs.google.com/document/d/1lJI2EpKTlho5Fz-SmIBon9HEvmBxAUKbK0Y4eePbpe0/pub' width='100%' height='100%'></iframe></html>";
+        String url_ttl_7 = "";
+        String url_ttl_8 = "<html><iframe src='https://docs.google.com/document/d/1-11hnWq_Llp8kFzLvmUvyT8MWw8xzNl3fLWJ5dbDtxc/pub' width='100%' height='100%'></iframe></html>";
+
+
 
         if (semTitle.equalsIgnoreCase(SemSelAttn.semester_3))
         {
-            webView.loadData((getString(R.string.url_ttl_3)),"text/html", "UTF-8");
+            webView.loadData(url_ttl_3,"text/html", "UTF-8");
         }
 
         else if (semTitle.equalsIgnoreCase(SemSelAttn.semester_4))
         {
-            webView.loadData((getString(R.string.url_ttl_4)),"text/html", "UTF-8");
+            webView.loadData(url_ttl_4,"text/html", "UTF-8");
         }
 
         else if (semTitle.equalsIgnoreCase(SemSelAttn.semester_5))
         {
-            webView.loadData((getString(R.string.url_ttl_5)),"text/html", "UTF-8");
+            webView.loadData(url_ttl_5,"text/html", "UTF-8");
         }
 
         else if (semTitle.equalsIgnoreCase(SemSelAttn.semester_6))
         {
-            webView.loadData((getString(R.string.url_ttl_6)),"text/html", "UTF-8");
+            webView.loadData(url_ttl_6,"text/html", "UTF-8");
         }
 
         else if (semTitle.equalsIgnoreCase(SemSelAttn.semester_7))
         {
-            webView.loadData((getString(R.string.url_ttl_7)),"text/html", "UTF-8");
+            webView.loadData(url_ttl_7,"text/html", "UTF-8");
         }
 
         else
         {
-            webView.loadData((getString(R.string.url_ttl_8)),"text/html", "UTF-8");
+            webView.loadData(url_ttl_8,"text/html", "UTF-8");
         }
 
     }

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bit.biteie.SupportActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Contact any of the students listed below"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/buttoncolordark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView10"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#7fc6b2b2"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rel3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/devimg3"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/shubhankar" />
+
+                    <TextView
+                        android:id="@+id/nameDev3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/devimg3"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/devimg3"
+                        android:text="Shubhankar Gupta"
+                        android:textColor="@color/toolbarcolor"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/DeptDev3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/college3"
+                        android:layout_alignStart="@+id/nameDev3"
+                        android:layout_centerHorizontal="false"
+                        android:text="Dept. of Elec. and Inst."
+                        android:textColor="@color/toolbarcolor" />
+
+                    <TextView
+                        android:id="@+id/college3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/devimg3"
+                        android:layout_alignStart="@+id/nameDev3"
+                        android:text="Bangalore Institute of Technology"
+                        android:textColor="@color/toolbarcolor" />
+
+                    <TextView
+                        android:id="@+id/phdev3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/devimg3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:autoLink="phone"
+                        android:text="Phone: +91 9035810481"
+                        android:textColor="@color/toolbarcolor" />
+
+                    <TextView
+                        android:id="@+id/websitedev3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="false"
+                        android:layout_below="@+id/phdev3"
+                        android:layout_marginLeft="10dp"
+                        android:autoLink="email"
+                        android:text="Email: shubhankargupta17@gmail.com "
+                        android:textColor="@color/toolbarcolor" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#7fc6b2b2"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/devimg2"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/sudipta" />
+
+                    <TextView
+                        android:id="@+id/nameDev2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/devimg2"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/devimg2"
+                        android:text="Sudipta Ranjan"
+                        android:textColor="@color/toolbarcolor"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/DeptDev2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/college2"
+                        android:layout_alignStart="@+id/nameDev2"
+                        android:layout_centerHorizontal="false"
+                        android:text="Dept. of Elec. and Inst."
+                        android:textColor="@color/toolbarcolor" />
+
+                    <TextView
+                        android:id="@+id/college2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/devimg2"
+                        android:layout_alignStart="@+id/nameDev2"
+                        android:text="Bangalore Institute of Technology"
+                        android:textColor="@color/toolbarcolor" />
+
+                    <TextView
+                        android:id="@+id/phdev2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/devimg2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:autoLink="phone"
+                        android:text="Phone: +91 8884058269"
+                        android:textColor="@color/toolbarcolor" />
+
+                    <TextView
+                        android:id="@+id/websitedev2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="false"
+                        android:layout_below="@+id/phdev2"
+                        android:layout_marginLeft="10dp"
+                        android:autoLink="email"
+                        android:text="Email: ranjansudipta22@gmail.com"
+                        android:textColor="@color/toolbarcolor" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#7fc6b2b2"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/devimg1"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/sid" />
+
+                    <TextView
+                        android:id="@+id/nameDev1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/devimg1"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/devimg1"
+                        android:text="Siddharth Hareendran"
+                        android:textColor="@color/toolbarcolor"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/DeptDev1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/college1"
+                        android:layout_alignStart="@+id/nameDev1"
+                        android:layout_centerHorizontal="false"
+                        android:text="Dept. of Elec. and Inst."
+                        android:textColor="@color/toolbarcolor" />
+
+                    <TextView
+                        android:id="@+id/college1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/devimg1"
+                        android:layout_alignStart="@+id/nameDev1"
+                        android:text="Bangalore Institute of Technology"
+                        android:textColor="@color/toolbarcolor" />
+
+                    <TextView
+                        android:id="@+id/phdev1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/devimg1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:autoLink="phone"
+                        android:text="Phone: +91 9663945502"
+                        android:textColor="@color/toolbarcolor" />
+
+                    <TextView
+                        android:id="@+id/websitedev1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="false"
+                        android:layout_below="@+id/phdev1"
+                        android:layout_marginLeft="10dp"
+                        android:autoLink="email"
+                        android:text="Email: sid9623@gmail.com"
+                        android:textColor="@color/toolbarcolor" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

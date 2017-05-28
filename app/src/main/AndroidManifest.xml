@@ -13,7 +13,8 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,27 +22,50 @@
             </intent-filter>
         </activity>
         <activity android:name=".EventsActivity" />
-        <activity android:name=".MarksActivity" />
+        <activity
+            android:name=".MarksActivity"
+            android:hardwareAccelerated="true" />
         <activity android:name=".AttendanceActivity" />
         <activity android:name=".TimeTableActivity" />
         <activity android:name=".FacultyActivity" />
-        <activity android:name=".ScannerActivity" />
-        <activity android:name=".SyllabusActivity" />
-        <activity android:name=".AssignmentActivity" />
-        <activity android:name=".NotesActivity" />
+        <activity
+            android:name=".ScannerActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".SyllabusActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".AssignmentActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".NotesActivity"
+            android:hardwareAccelerated="true" />
         <activity android:name=".SemSelAssignment" />
-        <activity android:name=".SemSelAttn" android:screenOrientation="portrait" />
-        <activity android:name=".SemSelTT" android:screenOrientation="portrait"/>
-        <activity android:name=".SemSelMarks" android:screenOrientation="portrait"/>
-        <activity android:name=".InfoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SemSelAttn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SemSelTT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SemSelMarks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SupportActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".DepartmentActivity" />
         <activity
             android:name=".SemSelSYL"
             android:label="@string/title_activity_sem_sel_syl"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".SemSelSyl" />
         <activity android:name=".GalleryActivity" />
-        <activity android:name=".CreditsActivity" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CreditsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".FeedbackFormActivity" />
+        <activity android:name=".TestActivity"></activity>
     </application>
 
 </manifest>

@@ -49,6 +49,50 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557238953120:android:9bc3340ccd5d6468",
+        "android_client_info": {
+          "package_name": "com.bit.biteie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557238953120-1i2ad2psgh7bg6q3l8ofpdjhaq5ai4td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bit.biteie",
+            "certificate_hash": "2f9b077cb8e131883928e94b0d497ae8bec89c15"
+          }
+        },
+        {
+          "client_id": "557238953120-n8tm0snp652bnqvrf6k8qv6ncpjueube.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKyPzf6Qa7CuwyB4QmRzS4kvevioJ28v4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557238953120-n8tm0snp652bnqvrf6k8qv6ncpjueube.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"
